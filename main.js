@@ -165,6 +165,11 @@ function showMerchantItemsView(id, items) {
   displayItems(items)
 }
 
+function showCouponsView() {
+  show([couponsView])
+  hide([merchantsView, itemsView])
+}
+
 // Functions that add data to the DOM
 function displayItems(items) {
   itemsView.innerHTML = ''
@@ -244,8 +249,9 @@ function getMerchantCoupons(event) {
 }
 
 function displayMerchantCoupons(coupons) {
-  show([couponsView])
-  hide([merchantsView, itemsView])
+  // show([couponsView])
+  // hide([merchantsView, itemsView])
+  showCouponsView()
 
   const allCoupons = coupons.data
   couponsView.innerHTML = '';
