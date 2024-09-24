@@ -16,6 +16,9 @@ The application is designed to simulate an admin portal for a online store. The 
 ### Context:
 This project is built off of an already existing repo, similar to one from a previous group project. The task was to add coupon functionality to the online store.
 
+### Contributors:
+[Renee's LinkedIn](https://www.linkedin.com/in/reneemessersmith/)
+
 ### Learning Goals:
 * Write migrations to create tables and relationships between tables
 * Implement CRUD functionality for a resource
