@@ -158,6 +158,10 @@ h3 {
   justify-content: space-between;
 }
 
+.coupons-view {
+  justify-content: center;
+}
+
 .item,
 .coupon {
   flex-direction: column;
