@@ -240,7 +240,6 @@ function displayMerchantItems(event) {
 
 function getMerchantCoupons(event) {
   let merchantId = event.target.closest("article").id.split('-')[1]
-  console.log("Merchant ID:", merchantId)
   
   fetchData(`merchants/${merchantId}/coupons`)
   .then(couponData => {
@@ -251,7 +250,6 @@ function getMerchantCoupons(event) {
 
 function displayMerchantCoupons(coupons, merchantId) {
   showCouponsView(merchantId)
-
   const allCoupons = coupons.data
   couponsView.innerHTML = '';
 
